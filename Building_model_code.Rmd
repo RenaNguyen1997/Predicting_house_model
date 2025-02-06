@@ -1,6 +1,6 @@
 ---
 title: "21954100_Assessment1_PredictiveAnalytics"
-output: html_notebook
+output: rmarkdown::github_document
 ---
 #Libary to be used and read file 
 ```{r}
