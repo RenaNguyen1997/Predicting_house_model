@@ -11,8 +11,8 @@ The report will focus on building a predictive model for USA sales Prices. There
 # Table of contents
 1. [Project setup](#project-setup)
 2. [Project Structure](#project-structure)
-3. [How to Run the Project](#how-to-run-project)
-4. [Key Analysis and Visualisations](#key-analysis-and-visualisations)
+3. [How to Run the Project](#how-to-run-the-project)
+4. [Key Analysis and Visualisations](#key-analysis-and-visualisation)
 5. [Insights and Findings](#insights-and-findings)
 
 # Project setup
@@ -40,10 +40,32 @@ The code file has been organized according to the above stages. Please access my
 
 # Key analysis and visualisation
 * Evaluation metrics: These are key metrics used in evaluating the model and deciding on the optimal one
-    * Regression models: 
-    * Decision tree:
-* Decision tree model demonstration: Different from the regression model, which uses numbers to demonstrate the relationship between predictor and target variables, the decision tree conveys the relationship via pictures.
+</p>
 
+    * Regression models:
+<p align="center">
+  <img src= "https://github.com/RenaNguyen1997/image/blob/main/Predicting_house/Regression_model_comparison.png" width=30% height=40%>
+</p>
+
+    * Decision tree:
+<p align="center">
+  <img src= "https://github.com/RenaNguyen1997/image/blob/main/Predicting_house/Decisiontree_comparison.png" width=30% height=40%>
+</p>
+
+* Decision tree model demonstration: Different from the regression model, which uses numbers to demonstrate the relationship between predictor and target variables, the decision tree conveys the relationship via pictures.
+<p align="center">
+  <img src= "https://github.com/RenaNguyen1997/image/blob/main/Predicting_house/PartC_Decisiontree_initial.png" width=30% height=40%>
+  <img src= "https://github.com/RenaNguyen1997/image/blob/main/Predicting_house/PartC_Decisiontree_increaseCP.png" width=30% height=40%>
+  <img src= "https://github.com/RenaNguyen1997/image/blob/main/Predicting_house/PartC_Decisiontree_decreseCP.png" width=30% height=40%>
+</p>
+
+* Regression model demonstration: By sketching the distribution of the predicted variable against the actual variable, we can evaluate the performance of the model
+<p align="center">
+  <img src= "https://github.com/RenaNguyen1997/image/blob/main/Predicting_house/PartC_Regressionmodel_1.png" width=30% height=40%>
+  <img src= "https://github.com/RenaNguyen1997/image/blob/main/Predicting_house/PartC_Regressionmodel_2.png" width=30% height=40%>
+  <img src= "https://github.com/RenaNguyen1997/image/blob/main/Predicting_house/PartC_Regressionmodel_3.png" width=30% height=40%>
+</p>
+ 
 For a detailed explanation of these models, kindly visit my website under the sections "Regression models" and " Decision tree models"
 
 # Insights and findings
