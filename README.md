@@ -19,7 +19,7 @@ The report will focus on building a predictive model for USA sales Prices. There
 To run this project, you will need R Studio to run the code to obtain the desired data and save your data in the correct directory 
 
 # Project structure
-1. Dataset: The data to be used during the analytics process
+1. Dataset: The data to be used during the analytics process, storing under the name "HousingValuation.csv"
 2. Predicting house code: The file includes all the code lines to be used for extracting information from the Cleaning and Mining process to Building and Choosing the appropriate model
 
 # How to run the project 
