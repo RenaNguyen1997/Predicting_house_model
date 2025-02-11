@@ -39,7 +39,35 @@ The project performs in order of 3 following stages
 The code file has been organized according to the above stages. Please access my website via the link to understand a detailed explanation of EDA results and Model clarifications: [Building a predicting model for estimating House value in Boston, USA](https://nrena1997.wixsite.com/analyst-porfolio/post/building-a-predicting-model-for-estimating-house-value-in-boston-usa)
 
 # Key analysis and visualisation
-* Evaluation metrics: These are key metrics used in evaluating the model and deciding on the optimal one
+* **Dealing with missing values:** Choosing the optimal method to deal with missing values for each predictor by drawing the distributions after applying each method and compare with the original observations.
+<p align="center">
+  <img src= "https://github.com/RenaNguyen1997/image/blob/main/Predicting_house/Q4_Yearbuilt.png" width=30% height=40%> 
+  <img src= "https://github.com/RenaNguyen1997/image/blob/main/Predicting_house/Q4_livingarea.png" width=30% height=40%>  
+</p>
+<p align="center">
+  <img src= "https://github.com/RenaNguyen1997/image/blob/main/Predicting_house/Q4_yearbuilt_delete.png" width=30% height=40%>
+  <img src= "https://github.com/RenaNguyen1997/image/blob/main/Predicting_house/Q4_livingarea_delete.png" width=30% height=40%>
+  <img src= "https://github.com/RenaNguyen1997/image/blob/main/Predicting_house/Q4_saleprice.png" width=30% height=40%>
+</p>
+
+* **Correlations between variables:** Demonstrate the correlation between each variable and the others, utilizing for dimension reduction in further analysis stage
+<p align="center">
+  <img src= "https://github.com/RenaNguyen1997/image/blob/main/Predicting_house/Q5_correlation.png" width=30% height=40%> 
+</p>
+
+* **Variables distribution:** Demonstrate the distributions of each variable, identifying the potential outliers or skewed data for further cleaning the data process
+<p align="center">
+  <img src= "https://github.com/RenaNguyen1997/image/blob/main/Predicting_house/Q5_continousdistribution.png" width=30% height=40%> 
+  <img src= "https://github.com/RenaNguyen1997/image/blob/main/Predicting_house/Q5_discretedistribution.png" width=30% height=40%>  
+  <img src= "https://github.com/RenaNguyen1997/image/blob/main/Predicting_house/Q5_ordinal.png" width=30% height=40%>
+</p>
+<p align="center">
+  <img src= "https://github.com/RenaNguyen1997/image/blob/main/Predicting_house/Q5_nominal1.png" width=30% height=40%>
+  <img src= "https://github.com/RenaNguyen1997/image/blob/main/Predicting_house/Q5_nominal2.png" width=30% height=40%>
+  <img src= "https://github.com/RenaNguyen1997/image/blob/main/Predicting_house/Q5_nominal3.png" width=30% height=40%>
+</p>
+
+* **Evaluation metrics:** These are key metrics used in evaluating the model and deciding on the optimal one
 </p>
 
     * Regression models:
@@ -52,14 +80,14 @@ The code file has been organized according to the above stages. Please access my
   <img src= "https://github.com/RenaNguyen1997/image/blob/main/Predicting_house/Decisiontree_comparison.png" width=30% height=40%>
 </p>
 
-* Decision tree model demonstration: Different from the regression model, which uses numbers to demonstrate the relationship between predictor and target variables, the decision tree conveys the relationship via pictures.
+* **Decision tree model demonstration:** Different from the regression model, which uses numbers to demonstrate the relationship between predictor and target variables, the decision tree conveys the relationship via pictures.
 <p align="center">
   <img src= "https://github.com/RenaNguyen1997/image/blob/main/Predicting_house/PartC_Decisiontree_initial.png" width=30% height=40%>
   <img src= "https://github.com/RenaNguyen1997/image/blob/main/Predicting_house/PartC_Decisiontree_increaseCP.png" width=30% height=40%>
   <img src= "https://github.com/RenaNguyen1997/image/blob/main/Predicting_house/PartC_Decisiontree_decreseCP.png" width=30% height=40%>
 </p>
 
-* Regression model demonstration: By sketching the distribution of the predicted variable against the actual variable, we can evaluate the performance of the model
+* **Regression model demonstration:** By sketching the distribution of the predicted variable against the actual variable, we can evaluate the performance of the model
 <p align="center">
   <img src= "https://github.com/RenaNguyen1997/image/blob/main/Predicting_house/PartC_Regressionmodel_1.png" width=30% height=40%>
   <img src= "https://github.com/RenaNguyen1997/image/blob/main/Predicting_house/PartC_Regressionmodel_2.png" width=30% height=40%>
