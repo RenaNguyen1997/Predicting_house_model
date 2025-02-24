@@ -4,9 +4,14 @@ The report will focus on building a predictive model for USA sales Prices. There
 
 # Key skills demonstrated
 **1. R programming language:** Using R studio with R language to perform data analysis
+
 **2. Data Cleaning and Mining:** Handling missing data, dealing with outliers, and normalizing data. 
+
 **3. Exploratory Data Analysis (EDA):** Identifying trends, patterns, and relationships in data
-**4. Predictive analytics:** Building different predictive models, including Regression models and Decision trees, and deciding the best models to predict the house prices
+
+**4. Predictive analytics:** Building different predictive models, including Regression models and Decision trees
+
+**5. A/B testing method:** Evaluating the performance of different models on subsets of variables to determine the most optimal model for predictive tasks specific to this dataset.
 
 # Table of contents
 1. [Project setup](#project-setup)
